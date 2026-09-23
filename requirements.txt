@@ -1,0 +1,5 @@
+opencv-python-headless
+pillow
+numpy
+pymupdf
+imagehash
