@@ -1,8 +1,24 @@
 # Design Matcher
 
-Find the design in your catalog that matches a customer's photo. Pick a photo, pick a folder, and the app searches every image and PDF page in it (including subfolders), then shows the closest candidates as ranked thumbnails.
+**Forgot where you saved that design? Search your folders by picture instead of by file name.**
 
-Built for CNC/woodcarving shops: a customer sends an angled phone photo of a carved door, and you need to find the matching design file among thousands.
+Give the app a photo and a folder. It looks through every image **and every page of every PDF** in that folder and all its subfolders, then shows the closest matches as ranked thumbnails. Double-click a result to open the file.
+
+Useful for designers and workshops with thousands of designs, catalogues and images scattered across folders and PDFs, where file names like `IMG_0042.jpg` don't tell you anything.
+
+![Design Matcher screenshot](docs/screenshot.png)
+
+*Example: a rotated, darker, blurred photo finds the original design (score 346), and also lists a matching page inside a PDF catalogue.*
+
+### What it can do
+
+- Match a photo against images: JPG, PNG, WEBP, BMP, TIFF, GIF
+- Match against PDFs, page by page, and show which page matched
+- Search a whole folder tree, including subfolders
+- Cope with a different camera angle, crop, lighting or wood colour than the stored design
+- Run fully offline on a normal PC: no AI model, no GPU, no account, nothing uploaded
+
+Built for CNC and woodcarving shops: a customer sends an angled phone photo of a carved door, and you need to find the matching design file among thousands.
 
 ## Install
 
