@@ -1,3 +1,6 @@
 __pycache__/
 *.pyc
 match_results.txt
+build/
+dist/
+*.spec

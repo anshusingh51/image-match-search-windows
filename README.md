@@ -20,7 +20,17 @@ Useful for designers and workshops with thousands of designs, catalogues and ima
 
 Built for CNC and woodcarving shops: a customer sends an angled phone photo of a carved door, and you need to find the matching design file among thousands.
 
-## Install
+## Download (Windows, no Python needed)
+
+1. Go to the [latest release](https://github.com/anshusingh51/image-match-search-windows/releases/latest)
+2. Download **DesignMatcher.exe**
+3. Double-click it
+
+The file is about 90 MB because it carries its own copy of Python and OpenCV. Nothing is installed and nothing leaves your PC.
+
+Windows may show a blue "Windows protected your PC" screen the first time, because the exe is not code-signed (that costs money each year). Click **More info**, then **Run anyway**. Some antivirus programs also flag any unsigned single-file exe made this way. If you prefer not to trust a downloaded exe, run it from source instead (below) and read the code, it is two short files.
+
+## Run from source (Python)
 
 Requires Python 3.9+ (Tkinter is included with the standard Windows Python installer).
 

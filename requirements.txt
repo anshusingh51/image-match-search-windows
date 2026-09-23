@@ -1,5 +1,5 @@
 opencv-python-headless
 pillow
 numpy
-pymupdf
+pymupdf>=1.24.3
 imagehash

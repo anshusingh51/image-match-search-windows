@@ -96,7 +96,7 @@ def iter_candidates(folder: Path):
                 print(f"  [skip] {path}: {e}", file=sys.stderr)
         elif ext in PDF_EXTS:
             try:
-                import fitz  # PyMuPDF
+                import pymupdf as fitz
                 doc = fitz.open(path)
                 for page_num in range(len(doc)):
                     page = doc[page_num]

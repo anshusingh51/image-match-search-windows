@@ -72,7 +72,7 @@ def iter_candidates(folder: Path):
                 continue
         elif ext in PDF_EXTS:
             try:
-                import fitz
+                import pymupdf as fitz
                 doc = fitz.open(path)
                 for page_num in range(len(doc)):
                     page = doc[page_num]
@@ -234,7 +234,7 @@ class DesignMatcherApp(tk.Tk):
     def _make_thumbnail(self, file_path, label):
         try:
             if "[page" in label:
-                import fitz
+                import pymupdf as fitz
                 page_num = int(label.split("[page")[1].strip(" ]")) - 1
                 doc = fitz.open(file_path)
                 pix = doc[page_num].get_pixmap(matrix=fitz.Matrix(0.5, 0.5))
