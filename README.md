@@ -2,23 +2,24 @@
 
 **Forgot where you saved that design? Search your folders by picture instead of by file name.**
 
-Give the app a photo and a folder. It looks through every image **and every page of every PDF** in that folder and all its subfolders, and shows the closest designs as a grid of pictures, best first. Click one to see it side by side with your photo.
+Give the app a photo and a folder. It looks through every image **and every page of every PDF** in that folder and all its subfolders, and shows the closest designs as a grid of pictures, best first. Click one to compare it with your photo; double-click it to see the two side by side, large.
 
 Useful for designers and workshops with thousands of designs, catalogues and images scattered across folders and PDFs, where file names like `IMG_0042.jpg` don't tell you anything.
 
 ![Design Matcher results grid](docs/screenshot.png)
 
-*The photo on the left, the closest designs on the right, including matching pages inside a PDF catalogue.*
+*The photo on the left, the closest designs in the middle (including a matching page inside a PDF catalogue), and the picked match on the right with a slider to wipe between it and the photo. The designs shown are made-up demo images.*
 
-![Design Matcher compare view](docs/compare.png)
+![Design Matcher side-by-side view](docs/compare.png)
 
-*Click a result to compare it with the photo, then open the file or show it in its folder.*
+*Double-click a result to see it next to the photo, then open the file or show it in its folder. The arrow keys step through the results.*
 
 ### What it can do
 
 - Match a phone photo of a finished piece against catalogue images and renders, even when the wood colour, lighting and framing differ
 - Search images (JPG, PNG, WEBP, BMP, TIFF, GIF) and PDFs page by page, and show which page matched
 - Search a whole folder tree, including subfolders
+- Show only images or only PDF pages, and make the result pictures bigger or smaller
 - Paste a photo straight from WhatsApp or a browser with Ctrl+V
 - Remember what it has already looked at, so only the first search of a big folder is slow
 - Run fully offline on a normal PC: no GPU, no account, nothing uploaded
